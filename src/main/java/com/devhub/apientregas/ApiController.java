@@ -9,6 +9,6 @@ public class ApiController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "Ola Mundo";
+        return "Ola Mundo!";
     }
 }
