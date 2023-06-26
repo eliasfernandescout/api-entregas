@@ -11,4 +11,10 @@ public class ApiController {
     public String hello() {
         return "Ola Mundo!";
     }
+
+    @GetMapping("/teste")
+    @ResponseBody
+    public String teste(){
+        return "Teste de rebuild do soft";
+    }
 }
