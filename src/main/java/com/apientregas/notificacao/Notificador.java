@@ -1,6 +1,6 @@
 package com.apientregas.notificacao;
 
-import modelo.Cliente;
+import com.apientregas.modelo.Cliente;
 
 public interface Notificador {
     void notificar(Cliente cliente, String mensagem);
