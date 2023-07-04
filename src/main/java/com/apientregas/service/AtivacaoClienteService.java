@@ -1,14 +1,15 @@
 package com.apientregas.service;
 
 import com.apientregas.modelo.Cliente;
+import com.apientregas.notificacao.Notificador;
 import com.apientregas.notificacao.NotificadorEmail;
 import org.springframework.stereotype.Component;
 
 @Component
 public class AtivacaoClienteService {
-   private NotificadorEmail notificador;
+   private Notificador notificador;
 
-    public AtivacaoClienteService(NotificadorEmail notificador) {
+    public AtivacaoClienteService(Notificador notificador) {
         this.notificador = notificador;
     }
 
