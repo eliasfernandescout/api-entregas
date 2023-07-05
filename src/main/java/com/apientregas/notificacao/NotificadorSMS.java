@@ -4,7 +4,7 @@ import com.apientregas.modelo.Cliente;
 import org.springframework.stereotype.Component;
 
 @Component
-public class NotificadorSMS {
+public class NotificadorSMS implements Notificador {
 
     public void notificar(Cliente cliente, String mensagem){
         System.out.printf("Notificando %s por SMS atraves do telefone %s: %s\n",
