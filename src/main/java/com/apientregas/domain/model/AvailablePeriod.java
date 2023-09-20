@@ -3,7 +3,7 @@ package com.apientregas.domain.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "merchant")
+@Table(name = "available_period")
 public class AvailablePeriod {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
