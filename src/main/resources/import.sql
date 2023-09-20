@@ -1,0 +1,1 @@
+insert into merchant (nome) values ('Sartori Gourmet');
