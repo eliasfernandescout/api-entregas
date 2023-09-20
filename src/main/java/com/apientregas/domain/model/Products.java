@@ -1,6 +1,7 @@
 package com.apientregas.domain.model;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Entity
 @Table(name = "products")
@@ -15,7 +16,7 @@ public class Products {
     @Column(name = "picture_url")
     private String pictureUrl;
     @Column(name = "price")
-    private Double price;
+    private BigDecimal price;
     @Column(name = "available")
     private Double isAvailable;
 }
