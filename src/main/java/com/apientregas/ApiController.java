@@ -18,8 +18,10 @@ public class ApiController {
     @ResponseBody
     public String hello() {
         Cliente elias = new Cliente("Elias Fernandes", "elias.fernandes@gmail.com", "41995296747");
+        Cliente dante = new Cliente("Dante Mattos Fernandes", "dantemattos@gmail.com", "41992480643");
         ativacaoClienteService.ativar(elias);
-        return "Hello!";
+        ativacaoClienteService.ativar(dante);
+        return "Cliente Ativado!";
     }
 
 
